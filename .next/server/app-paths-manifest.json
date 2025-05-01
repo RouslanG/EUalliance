@@ -1,0 +1,8 @@
+{
+  "/page": "app/page.js",
+  "/insurance-strategy/page": "app/insurance-strategy/page.js",
+  "/about-us/page": "app/about-us/page.js",
+  "/tax-management/page": "app/tax-management/page.js",
+  "/index-2/page": "app/index-2/page.js",
+  "/index-3/page": "app/index-3/page.js"
+}
