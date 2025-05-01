@@ -11,12 +11,12 @@ export default function About() {
                             <div className="content_block_one">
                                 <div className="content-box p_relative mr_40">
                                     <div className="sec-title mb_25">
-                                        <span className="sub-title">About BizTech</span>
-                                        <h2>Dedicated And <br />Professional Consulting Services</h2>
+                                        <span className="sub-title">О нас</span>
+                                        {/* <h2>Dedicated And <br />Professional Consulting Services</h2> */}
                                     </div>
                                     <div className="text mb_35">
-                                        <p>Tempus nec vitae orci sodales metus velit nec at diam in sed. Massa dui ipsum ornare sagittis dolor fusce.</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing integer ultrices suspendisse varius etiam est. Est, felis, tempus nec vitae orci sodales Metus, velit nec at diam in sed. Massa dui ipsum ornare sagittis dolor sagittis amet odio est. Sit semper et velit fusce.</p>
+                                        {/* <p>Tempus nec vitae orci sodales metus velit nec at diam in sed. Massa dui ipsum ornare sagittis dolor fusce.</p> */}
+                                        <p>Альянс Европейского единства основан на собрании единомышленников в г. Вена, Австрия. <br />Членами Альянса являются граждане Европы, Америки и других стран, объединенные на принципе содействия друг другу для установления деловых контактов и для развития коммерческой деятельности.</p>
                                     </div>
                                     <div className="inner-box">
                                         <div className="single-item">

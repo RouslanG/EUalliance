@@ -13,17 +13,17 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={3} footerStyle={1}>
+            <Layout headerStyle={2} >
                 <Banner />
                 <Features />
                 <About />
-                <Services />
-                <Video />
+                {/* <Services />
+                <Video /> */}
                 <Team />
-                <Testimonial />
+                {/* <Testimonial />
                 <Clients />
                 <Projects />
-                <Expertise />
+                <Expertise /> */}
             </Layout>
         </>
     )

@@ -7,7 +7,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
         <>
             {/* <header className="main-header header-style-two"> */}
             <header className={`main-header header-style-two ${scroll ? "fixed-header" : ""}`}>
-                <div className="header-top">
+                {/* <div className="header-top">
                     <div className="auto-container">
                         <div className="top-inner padding_0">
                             <div className="top-left">
@@ -27,13 +27,13 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div className="header-lower">
                     <div className="auto-container">
                         <div className="outer-box">
                             <div className="logo-box">
                                 <figure className="logo">
-                                    <Link href="/"><img src="assets/images/logo.png" alt="" /></Link>
+                                    <Link href="/"><img src="assets/images/logo-canva.png" alt="" /></Link>
                                 </figure>
                             </div>
                             <div className="menu-area clearfix">

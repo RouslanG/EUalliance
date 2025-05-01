@@ -14,7 +14,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSide
                         <div className="logo-box">
                         <figure className="logo">
                             <Link href="/">
-                            <img src="assets/images/logo-2.png" alt="" />
+                            <img src="assets/images/screenshot.png" alt="" />
                             </Link>
                         </figure>
                         </div>

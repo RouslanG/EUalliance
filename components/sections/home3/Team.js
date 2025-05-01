@@ -8,8 +8,8 @@ export default function Team() {
             <section className="team-section sec-pad">
                 <div className="auto-container">
                     <div className="sec-title mb_50 centred">
-                        <span className="sub-title">Exclusive Team</span>
-                        <h2>We Have A Professional Team <br />Member</h2>
+                        <span className="sub-title">Наша команда</span>
+                        <h2>Аппарат</h2>
                     </div>
                 </div>
                 <div className="auto-container">
@@ -26,8 +26,8 @@ export default function Team() {
                                         </ul>
                                     </div>
                                     <div className="lower-content">
-                                        <h3><Link href="/team-details">Wade Warren</Link></h3>
-                                        <span className="designation">Founder</span>
+                                        <h3><Link href="/team-details">Имя президента</Link></h3>
+                                        <span className="designation">Президент</span>
                                     </div>
                                 </div>
                             </div>
@@ -44,8 +44,8 @@ export default function Team() {
                                         </ul>
                                     </div>
                                     <div className="lower-content">
-                                        <h3><Link href="/team-details">Guy Hawkins</Link></h3>
-                                        <span className="designation">Consultant</span>
+                                        <h3><Link href="/team-details">Имя вице-президент</Link></h3>
+                                        <span className="designation">Вице-Президент</span>
                                     </div>
                                 </div>
                             </div>
@@ -62,8 +62,8 @@ export default function Team() {
                                         </ul>
                                     </div>
                                     <div className="lower-content">
-                                        <h3><Link href="/team-details">Bessie Cooper</Link></h3>
-                                        <span className="designation">Advisor</span>
+                                        <h3><Link href="/team-details">Имя председателя коллегии</Link></h3>
+                                        <span className="designation">Председатель коллегии</span>
                                     </div>
                                 </div>
                             </div>
@@ -80,8 +80,8 @@ export default function Team() {
                                         </ul>
                                     </div>
                                     <div className="lower-content">
-                                        <h3><Link href="/team-details">Devon Lane</Link></h3>
-                                        <span className="designation">Manager</span>
+                                        <h3><Link href="/team-details">Имя казначея</Link></h3>
+                                        <span className="designation">Казначей</span>
                                     </div>
                                 </div>
                             </div>

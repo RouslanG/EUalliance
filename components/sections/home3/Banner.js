@@ -44,15 +44,15 @@ export default function Banner() {
                         <div className="auto-container">
                             <div className="content-box">
                             <div className="content-inner">
-                                <span>Change The World</span>
-                                <h2>Build & Grow Your Business</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Turpis ridiculus tellus.</p>
+                                <span>Наша миссия</span>
+                                <h2>Альянс Европейского Единства</h2>
+                                <p>Объединить самые яркие умы сообщества с целью создать мощное будущее для всех нас и стать достойной частью европейской семьи.  </p>
                                 <Link href="/about-us" className="theme-btn-one">Discover More</Link>
                             </div>
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className="slide-item p_relative">
+                    {/* <SwiperSlide className="slide-item p_relative">
                         <div className="image-layer p_absolute" style={{ backgroundImage: 'url(/assets/images/new_images/new-banner.png)' }}></div>
                         <div className="starshine">
                             <div className="shine shine-1"></div>
@@ -68,7 +68,7 @@ export default function Banner() {
                             </div>
                             </div>
                         </div>
-                    </SwiperSlide>
+                    </SwiperSlide> */}
                     <div className="owl-nav">
                         <button type="button" className="owl-prev h1p">
                             <span>‹</span>
