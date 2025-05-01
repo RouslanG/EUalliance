@@ -50,7 +50,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                             </div>
                             <ul className="menu-right-content">
                                 <li className="btn-box">
-                                    <Link href="/contact" className="theme-btn-one">Free Consulting</Link>
+                                    <Link href="/contact" className="theme-btn-one">Login</Link>
                                 </li>
                             </ul>
                         </div>
@@ -60,7 +60,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                     <div className="auto-container">
                         <div className="outer-box">
                             <div className="logo-box">
-                                <figure className="logo"><Link href="/"><img src="assets/images/logo.png" alt="" /></Link></figure>
+                                <figure className="logo"><Link href="/"><img src="assets/images/logo-canva.png" alt="" /></Link></figure>
                             </div>
                             <div className="menu-area clearfix">
                                 <nav className="main-menu navbar-expand-md navbar-light">
@@ -71,7 +71,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                             </div>
                             <ul className="menu-right-content">
                                 <li className="btn-box">
-                                    <Link href="/contact">Free Consulting</Link>
+                                    <Link href="/contact">Login</Link>
                                 </li>
                             </ul>
                         </div>

@@ -13,7 +13,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={2} >
+            <Layout headerStyle={2} footerStyle={1}>
                 <Banner />
                 <Features />
                 <About />
