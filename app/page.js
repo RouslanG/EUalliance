@@ -1,31 +1,29 @@
 import Layout from "@/components/layout/Layout"
-import About from "@/components/sections/home1/About"
-import Banner from "@/components/sections/home1/Banner"
-import Services from "@/components/sections/home1/Services"
-import Projects from "@/components/sections/home1/Projects"
-import Features from "@/components/sections/home1/Features"
-import Funfacts from "@/components/sections/home1/Funfacts"
-import News from "@/components/sections/home1/News"
-import Expertise from "@/components/sections/home1/Expertise"
-import Process from "@/components/sections/home1/Process"
-import Testimonial from "@/components/sections/home1/Testimonial"
-import WhyChooseUs from "@/components/sections/home1/WhyChooseUs"
+import About from "@/components/sections/home3/About"
+import Banner from "@/components/sections/home3/Banner"
+import Services from "@/components/sections/home3/Services"
+import Projects from "@/components/sections/home3/Projects"
+import Features from "@/components/sections/home3/Features"
+import Video from "@/components/sections/home3/Video"
+import Team from "@/components/sections/home3/Team"
+import Clients from "@/components/sections/home3/Clients"
+import Expertise from "@/components/sections/home3/Expertise"
+import Testimonial from "@/components/sections/home3/Testimonial"
 export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1}>
+            <Layout headerStyle={3} footerStyle={1}>
                 <Banner />
                 <Features />
                 <About />
                 <Services />
-                <WhyChooseUs />
-                <Projects />
+                <Video />
+                <Team />
                 <Testimonial />
-                <Process />
-                <Funfacts />
+                <Clients />
+                <Projects />
                 <Expertise />
-                <News />
             </Layout>
         </>
     )
