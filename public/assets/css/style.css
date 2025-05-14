@@ -489,7 +489,7 @@ img {
 }
 
 .sec-pad{
-  padding: 143px 0px 150px 0px;
+  padding: 50px 0px 50px 0px;
 }
 
 .mr-0{
@@ -558,7 +558,7 @@ img {
 .sec-title .sub-title{
   position: relative;
   display: inline-block;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 30px; 
   font-weight: 500;
   margin-bottom: 12px;
@@ -574,6 +574,19 @@ img {
 }
 
 .sec-title.light h2{
+  color: #fff;
+}
+
+.sec-title h3{
+  position: relative;
+  display: block;
+  font-size: 20px;
+  line-height: 50px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.sec-title.light h3{
   color: #fff;
 }
 

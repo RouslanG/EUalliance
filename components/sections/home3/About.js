@@ -3,49 +3,16 @@ import Link from "next/link"
 
 export default function About() {
     return (
-        <>
-            <section className="about-style-three p_relative">
+        <>  
+            <section className="team-section sec-pad">
                 <div className="auto-container">
-                    <div className="row clearfix">
-                        <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                            <div className="content_block_one">
-                                <div className="content-box p_relative mr_40">
-                                    <div className="sec-title mb_25">
-                                        <span className="sub-title">О нас</span>
-                                        {/* <h2>Dedicated And <br />Professional Consulting Services</h2> */}
-                                    </div>
-                                    <div className="text mb_35">
-                                        {/* <p>Tempus nec vitae orci sodales metus velit nec at diam in sed. Massa dui ipsum ornare sagittis dolor fusce.</p> */}
-                                        <p>Альянс Европейского единства основан на собрании единомышленников в г. Вена, Австрия. <br />Членами Альянса являются граждане Европы, Америки и других стран, объединенные на принципе содействия друг другу для установления деловых контактов и для развития коммерческой деятельности.</p>
-                                    </div>
-                                    <div className="inner-box">
-                                        <div className="single-item">
-                                            <div className="icon-box"><i className="icon-11"></i></div>
-                                            <h3>Solution Focused</h3>
-                                            <p>Lorem ipsum dolor sit amet tempus consectetur adipiscing.</p>
-                                        </div>
-                                        <div className="single-item">
-                                            <div className="icon-box"><i className="icon-11"></i></div>
-                                            <h3>99.99% Success</h3>
-                                            <p>Lorem ipsum dolor sit amet tempus consectetur adipiscing.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-6 col-md-12 col-sm-12 image-column">
-                            <div className="image_block_three">
-                                <div className="image-box p_relative ml_40 pl_60">
-                                    <figure className="image"><img src="assets/images/resource/about-4.jpg" alt="" /></figure>
-                                    <div className="image-text">
-                                        <h3>SINCE 1990</h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div className="sec-title mb_50 centred">
+                        <span className="sub-title">О НАС</span>
+                        <p>Альянс создан в столице Австрии, городе Вена образованными специалистами, профессионалами, опытными и деловым людьми, добившихся успехов, как в жизни, так и в бизнесе. Члены нашего Альянса проживают в странах Европы и Азии, США и в Великобритании. Для организации не приемлемыми являются криминальные, религиозные, политические и в целом негативные дискуссии.</p>
                     </div>
                 </div>
             </section>
+
         </>
     )
 }

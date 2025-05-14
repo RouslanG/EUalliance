@@ -8,8 +8,7 @@ export default function Team() {
             <section className="team-section sec-pad">
                 <div className="auto-container">
                     <div className="sec-title mb_50 centred">
-                        <span className="sub-title">Наша команда</span>
-                        <h2>Аппарат</h2>
+                        <span className="sub-title">НАША КОМАНДА</span>
                     </div>
                 </div>
                 <div className="auto-container">

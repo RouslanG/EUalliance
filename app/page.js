@@ -15,15 +15,15 @@ export default function Home() {
         <>
             <Layout headerStyle={2} footerStyle={1}>
                 <Banner />
-                <Features />
+                {/* <Features /> */}
                 <About />
                 <Services />
-                <Video />
+                {/* <Video /> */}
                 <Team />
-                <Testimonial />
+                {/* <Testimonial />
                 <Clients />
                 <Projects />
-                <Expertise />
+                <Expertise /> */}
             </Layout>
         </>
     )

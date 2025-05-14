@@ -11044,7 +11044,7 @@ textarea.form-control-lg {
 }
 
 .theme-btn-one{
-	background: #DE2C2C;
+	background: #0aae7c;
 }
 
 .sec-title .sub-title{
@@ -25773,7 +25773,7 @@ Image Hover
 /** service-style-three **/
 
 .service-style-three{
-	padding: 143px 0px 390px 0px;
+	padding: 50px 0px 50px 0px;
 }
 
 .service-block-three .inner-box{
@@ -28612,7 +28612,7 @@ Image Hover
 }
 
 .team-page-section{
-	padding: 143px 0px 120px 0px;
+	padding: 50px 0px 50px 0px;
 }
 
 .team-page-section .team-block-one .inner-box{
@@ -31322,7 +31322,7 @@ img {
 }
 
 .sec-pad{
-  padding: 143px 0px 150px 0px;
+  padding: 50px 0px 50px 0px;
 }
 
 .mr-0{
@@ -31367,7 +31367,7 @@ img {
 .sec-title .sub-title{
   position: relative;
   display: inline-block;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 30px; 
   font-weight: 500;
   margin-bottom: 12px;
@@ -31383,6 +31383,19 @@ img {
 }
 
 .sec-title.light h2{
+  color: #fff;
+}
+
+.sec-title h3{
+  position: relative;
+  display: block;
+  font-size: 20px;
+  line-height: 50px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.sec-title.light h3{
   color: #fff;
 }
 
