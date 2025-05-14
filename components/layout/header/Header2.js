@@ -37,11 +37,11 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                                 </figure>
                             </div>
                             <div className="menu-area clearfix">
-                                <div className="mobile-nav-toggler" onClick={handleMobileMenu}>
+                                {/* <div className="mobile-nav-toggler" onClick={handleMobileMenu}>
                                     <i className="icon-bar"></i>
                                     <i className="icon-bar"></i>
                                     <i className="icon-bar"></i>
-                                </div>
+                                </div> */}
                                 <nav className="main-menu navbar-expand-md navbar-light">
                                     <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                         <Menu />

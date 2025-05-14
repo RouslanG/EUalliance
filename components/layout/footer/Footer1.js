@@ -11,7 +11,7 @@ export default function Footer1() {
                     </div>
                     <div className="auto-container">
                         <div className="row clearfix">
-                            <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
+                            {/* <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
                                 <div className="logo-widget footer-widget">
                                     <figure className="footer-logo">
                                     <Link href="#">
@@ -25,9 +25,9 @@ export default function Footer1() {
                                     <p>nisl viverra massa imperdiet. Dui mattis quis congue fames.</p>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
-                                <div className="links-widget footer-widget ml_50">
+                                {/* <div className="links-widget footer-widget ml_50">
                                     <div className="widget-title">
                                     <h3>Quick Link</h3>
                                     </div>
@@ -40,10 +40,10 @@ export default function Footer1() {
                                         <li><Link href="/contact">Contact Us</Link></li>
                                     </ul>
                                     </div>
-                                </div>
+                                </div> */}
                                 </div>
 
-                                <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
+                                {/* <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
                                 <div className="links-widget footer-widget ml_30">
                                     <div className="widget-title">
                                     <h3>Useful Links</h3>
@@ -58,30 +58,26 @@ export default function Footer1() {
                                     </ul>
                                     </div>
                                 </div>
-                                </div>
+                                </div> */}
 
                                 <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
                                 <div className="contact-widget footer-widget">
                                     <div className="widget-title">
-                                    <h3>Contact</h3>
+                                    <h3>Контакты</h3>
                                     </div>
                                     <div className="widget-content">
-                                    <p>Tincidunt neque pretium lectus donec risus.</p>
                                     <ul className="info-list clearfix">
-                                        <li><i className="icon-23"></i>New Hyde Park, NY 11040</li>
-                                        <li><i className="icon-3"></i><Link href="mailto:example@info.com">example@info.com</Link></li>
-                                        <li><i className="icon-2"></i><Link href="tel:912136660027">333 666 0000</Link></li>
+                                        <li><i className="icon-23"></i>Вена, Австрия</li>
+                                        <li><i className="icon-3"></i><Link href="mailto:alliance.eu33@gmail.com">alliance.eu33@gmail.com</Link></li>
+                                        <li><i className="icon-2"></i><Link href="tel:912136660027">0455 55 66 77</Link></li>
                                     </ul>
                                     </div>
                                 </div>
                             </div>
-
-
-
                         </div>
                     </div>
                 </div>
-                <div className="footer-bottom centred">
+                {/* <div className="footer-bottom centred">
                     <div className="auto-container">
                     <div className="copyright">
                         <p>
@@ -89,7 +85,7 @@ export default function Footer1() {
                         </p>
                     </div>
                     </div>
-                </div>
+                </div> */}
             </footer>
 
         </>
