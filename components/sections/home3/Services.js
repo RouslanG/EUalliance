@@ -7,7 +7,7 @@ export default function Services() {
                 {/* <div className="pattern-layer" style={{ backgroundImage: 'url(assets/images/shape/shape-34.png)' }}></div> */}
                 {/* <div className="pattern-layer-2" style={{ backgroundImage: 'url(assets/images/shape/shape-35.png)' }}></div> */}
                 <div className="auto-container">
-                  <div className="sec-title centred light mb_60">
+                  <div className="sec-title centred light mb_30">
                     <span className="sub-title">ЦЕЛИ И ЗАДАЧИ</span>
                     {/* <h2>Альянс преследует следующие цели:</h2> */}
                   </div>
@@ -67,8 +67,8 @@ export default function Services() {
                       </div>
                     </div>
                   </div>
-                  <div className="sec-title centred light mb_60">
-                    <h3>Для достижения целей Альянс осуществляет мероприятия, не запрещённые законом, включая: проведение форумов, конференций, наставнических программ, совместные бизнес-проекты, получение грантов и добровольных взносов.</h3>
+                  <div className="sec-title centred light">
+                    <p>Для достижения целей Альянс осуществляет мероприятия, не запрещённые законом, включая: проведение форумов, конференций, наставнических программ, совместные бизнес-проекты, получение грантов и добровольных взносов.</p>
                   </div>
                 </div>
             </section>

@@ -10,368 +10,45 @@ import ReactCurvedText from 'react-curved-text'
 import ModalVideo from 'react-modal-video'
 
 export default function Home() {
-    const [isOpen, setOpen] = useState(false)
-    const [isActive, setIsActive] = useState({
-        status: false,
-        key: 1,
-    })
 
-    const handleToggle = (key) => {
-        if (isActive.key === key) {
-            setIsActive({
-                status: false,
-            })
-        } else {
-            setIsActive({
-                status: true,
-                key,
-            })
-        }
-    }
     return (
         <>
-            <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="About Us">
-                {/* about-section */}
-                <section className="about-section p_relative">
-                    <div className="auto-container">
-                        <div className="row clearfix">
-                        <div className="col-lg-6 col-md-12 col-sm-12 image-column">
-                            <div className="image_block_one">
-                            <div className="image-box p_relative pr_50 mr_30">
-                                <figure className="image image-1"><img src="assets/images/resource/about-1.jpg" alt="" /></figure>
-                                <figure className="image image-2"><img src="assets/images/resource/about-2.jpg" alt="" /></figure>
-                                <div className="video-inner">
-                                    <div className="video-btn">
-                                        <VideoPopup />
-                                    </div>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                            <div className="content_block_one">
-                            <div className="content-box p_relative ml_30">
-                                <div className="sec-title mb_25">
-                                <span className="sub-title">About BizTech</span>
-                                <h2>Dedicated And <br/>Professional Consulting Services</h2>
-                                </div>
-                                <div className="text mb_35">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing integer ultrices suspendisse varius etiam est. Est, felis, tempus nec vitae orci sodales Metus, velit nec at diam in sed. Massa dui ipsum ornare sagittis dolor sagittis amet odio est. Sit semper et velit fusce.</p>
-                                </div>
-                                <div className="inner-box mb_35">
-                                <div className="single-item">
-                                    <div className="icon-box"><i className="icon-11"></i></div>
-                                    <h3>Solution Focused</h3>
-                                    <p>Lorem ipsum dolor sit amet tempus consectetur adipiscing.</p>
-                                </div>
-                                <div className="single-item">
-                                    <div className="icon-box"><i className="icon-11"></i></div>
-                                    <h3>99.99% Success</h3>
-                                    <p>Lorem ipsum dolor sit amet tempus consectetur adipiscing.</p>
-                                </div>
-                                </div>
-                                <figure className="signature"><img src="assets/images/icons/signature-1.png" alt="" /></figure>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </section>
-                {/* about-section end */}
-
-
-                {/* service-style-two */}
-                <section className="service-style-two p_relative bg-color-1">
-                    <div className="auto-container">
-                        <div className="sec-title centred mb_50">
-                            <span className="sub-title">What We Do</span>
-                            <h2>Provide the Best Consulting <br />in This Industry</h2>
-                        </div>
-                        <div className="row clearfix">
-                            <div className="col-lg-4 col-md-6 col-sm-12 service-block">
-                                <div className="service-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <figure className="image-box"><img src="assets/images/service/service-1.jpg" alt="" /></figure>
-                                        <div className="lower-content">
-                                            <div className="inner">
-                                                <div className="icon-box"><i className="icon-7"></i></div>
-                                                <h3><Link href="/strategy-planning">Strategy & Planning</Link></h3>
-                                                <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p>
-                                                <div className="btn-box">
-                                                    <Link href="/strategy-planning" className="theme-btn-one">Read More</Link>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 service-block">
-                                <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <figure className="image-box"><img src="assets/images/service/service-2.jpg" alt="" /></figure>
-                                        <div className="lower-content">
-                                            <div className="inner">
-                                                <div className="icon-box"><i className="icon-7"></i></div>
-                                                <h3><Link href="/program-manager">Program Manager</Link></h3>
-                                                <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p>
-                                                <div className="btn-box">
-                                                    <Link href="/program-manager" className="theme-btn-one">Read More</Link>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 service-block">
-                                <div className="service-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <figure className="image-box"><img src="assets/images/service/service-3.jpg" alt="" /></figure>
-                                        <div className="lower-content">
-                                            <div className="inner">
-                                                <div className="icon-box"><i className="icon-7"></i></div>
-                                                <h3><Link href="/tax-management">Tax Management</Link></h3>
-                                                <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p>
-                                                <div className="btn-box">
-                                                    <Link href="/tax-management" className="theme-btn-one">Read More</Link>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 service-block">
-                                <div className="service-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <figure className="image-box"><img src="assets/images/service/service-4.jpg" alt="" /></figure>
-                                        <div className="lower-content">
-                                            <div className="inner">
-                                                <div className="icon-box"><i className="icon-7"></i></div>
-                                                <h3><Link href="/investment-policy">Investment Policy</Link></h3>
-                                                <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p>
-                                                <div className="btn-box">
-                                                    <Link href="/investment-policy" className="theme-btn-one">Read More</Link>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 service-block">
-                                <div className="service-block-two wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <figure className="image-box"><img src="assets/images/service/service-5.jpg" alt="" /></figure>
-                                        <div className="lower-content">
-                                            <div className="inner">
-                                                <div className="icon-box"><i className="icon-7"></i></div>
-                                                <h3><Link href="/financial-advices">Financial Advices</Link></h3>
-                                                <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p>
-                                                <div className="btn-box">
-                                                    <Link href="/financial-advices" className="theme-btn-one">Read More</Link>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 service-block">
-                                <div className="service-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <figure className="image-box"><img src="assets/images/service/service-6.jpg" alt="" /></figure>
-                                        <div className="lower-content">
-                                            <div className="inner">
-                                                <div className="icon-box"><i className="icon-7"></i></div>
-                                                <h3><Link href="/insurance-strategy">Insurance Strategy</Link></h3>
-                                                <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p>
-                                                <div className="btn-box">
-                                                    <Link href="/insurance-strategy" className="theme-btn-one">Read More</Link>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                {/* service-style-two end */}
-
-
-                {/* clients-section */}
-                <section className="clients-section p_relative bg-color-2">
-                    <div className="auto-container">
-                        <div className="inner-box">
-                            <figure className="clients-logo"><Link href="/about-us"><img src="assets/images/clients/clients-1.png" alt="" /></Link></figure>
-                            <figure className="clients-logo"><Link href="/about-us"><img src="assets/images/clients/clients-2.png" alt="" /></Link></figure>
-                            <figure className="clients-logo"><Link href="/about-us"><img src="assets/images/clients/clients-3.png" alt="" /></Link></figure>
-                            <figure className="clients-logo"><Link href="/about-us"><img src="assets/images/clients/clients-4.png" alt="" /></Link></figure>
-                            <figure className="clients-logo"><Link href="/about-us"><img src="assets/images/clients/clients-5.png" alt="" /></Link></figure>
-                        </div>
-                    </div>
-                </section>
-                {/* clients-section end */}
-
-
-                {/* team-section */}
+            <Layout headerStyle={2} footerStyle={1}>
                 <section className="team-section sec-pad">
                     <div className="auto-container">
-                        <div className="sec-title mb_50 centred">
-                            <span className="sub-title">Exclusive Team</span>
-                            <h2>We Have A Professional Team <br />Member</h2>
-                        </div>
-                        <div className="row clearfix">
-                            <div className="col-lg-3 col-md-6 col-sm-12 team-block">
-                                <div className="team-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <div className="image-box">
-                                            <figure className="image"><img src="assets/images/team/team-1.jpg" alt="" /></figure>
-                                            <ul className="social-links clearfix">
-                                                <li><Link href="/about-us"><i className="fab fa-facebook-f"></i></Link></li>
-                                                <li><Link href="/about-us"><i className="fab fa-twitter"></i></Link></li>
-                                                <li><Link href="/about-us"><i className="fab fa-instagram"></i></Link></li>
-                                            </ul>
-                                        </div>
-                                        <div className="lower-content">
-                                            <h3><Link href="/team-details">Wade Warren</Link></h3>
-                                            <span className="designation">Founder</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12 team-block">
-                                <div className="team-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <div className="image-box">
-                                            <figure className="image"><img src="assets/images/team/team-2.jpg" alt="" /></figure>
-                                            <ul className="social-links clearfix">
-                                                <li><Link href="/about-us"><i className="fab fa-facebook-f"></i></Link></li>
-                                                <li><Link href="/about-us"><i className="fab fa-twitter"></i></Link></li>
-                                                <li><Link href="/about-us"><i className="fab fa-instagram"></i></Link></li>
-                                            </ul>
-                                        </div>
-                                        <div className="lower-content">
-                                            <h3><Link href="/team-details">Guy Hawkins</Link></h3>
-                                            <span className="designation">Consultant</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12 team-block">
-                                <div className="team-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <div className="image-box">
-                                            <figure className="image"><img src="assets/images/team/team-3.jpg" alt="" /></figure>
-                                            <ul className="social-links clearfix">
-                                                <li><Link href="/about-us"><i className="fab fa-facebook-f"></i></Link></li>
-                                                <li><Link href="/about-us"><i className="fab fa-twitter"></i></Link></li>
-                                                <li><Link href="/about-us"><i className="fab fa-instagram"></i></Link></li>
-                                            </ul>
-                                        </div>
-                                        <div className="lower-content">
-                                            <h3><Link href="/team-details">Bessie Cooper</Link></h3>
-                                            <span className="designation">Advisor</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-12 team-block">
-                                <div className="team-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                                    <div className="inner-box">
-                                        <div className="image-box">
-                                            <figure className="image"><img src="assets/images/team/team-4.jpg" alt="" /></figure>
-                                            <ul className="social-links clearfix">
-                                                <li><Link href="/about-us"><i className="fab fa-facebook-f"></i></Link></li>
-                                                <li><Link href="/about-us"><i className="fab fa-twitter"></i></Link></li>
-                                                <li><Link href="/about-us"><i className="fab fa-instagram"></i></Link></li>
-                                            </ul>
-                                        </div>
-                                        <div className="lower-content">
-                                            <h3><Link href="/team-details">Devon Lane</Link></h3>
-                                            <span className="designation">Manager</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div className="sec-title centred">
+                            <span className="sub-title">Уставные требования для членов Альянса Европейского Единства</span>
+                            <p>Альянс Европейского Единения (АЕЕ), Вена, Австрия European Unity Alliance (EUA), Vienna, Austria</p>
+                            <br/>
+                            <span className="sub-title">ПРЕАМБУЛА</span>
+                            <p>Альянс Европейского Единства (далее — «Альянс») является добровольным, самоуправляемым, некоммерческим объединением физических и юридических лиц, созданным в соответствии с правом Австрийской Республики (Vereinsgesetz 2002) для содействия интеграции, развитию образования, бизнеса и культурного обмена между народами Европы и других стран.</p>
+                            <br/>
+                            <span className="sub-title">I. ОБЩИЕ ПОЛОЖЕНИЯ</span>
+                            <p>1. Полное наименование: Альянс Европейского Единства; European Unity Alliance. <br/>2. Местонахождение: Вена, Австрия. Фактический адрес определяется Решением Коллегии. <br/>3. Правовой статус: Некоммерческая ассоциация (Verein) без цели извлечения прибыли. <br/>4. Срок деятельности: бессрочный.</p> 
+                            <br/>
+                            <span className="sub-title">II. ЦЕЛИ И ЗАДАЧИ</span>
+                            <p>Альянс преследует следующие цели:<br/> 1. Интеграция в европейское общество на основе соблюдения законов Европы, прав человека, принципов демократии и культурного многообразия. <br/>2. Повышение образовательного и материального уровня членов и их семей. <br/>3. Деловое сотрудничество и взаимная помощь в коммерческой деятельности. <br/>4. Содействие развитию образования, творчества, науки и спорта.<br/>5. Консультирование, советы и участие в общественной и социальной жизни. <br/>6. Взаимная помощь в трудоустройстве членов Альянса и членов их семей. <br/>7. Защита и представление прав и законных интересов участников Альянса <br/><br/>Для достижения целей Альянс осуществляет мероприятия, не запрещённые законом, включая: проведение форумов, конференций, наставнических программ, совместные бизнес- проекты, получение грантов и добровольных взносов. </p>    
+                            <br/>
+                            <span className="sub-title">III. ПРИНЦИПЫ ДЕЯТЕЛЬНОСТИ</span>
+                            <p>1. Добровольность, равноправие, самоуправление и транспарентность. <br/>2. Неприбыльность: доходы используются только для уставных целей. <br/>3. Соблюдение европейских стандартов деловой этики, конфиденциальности и охраны персональных данных. <br/>4. Политическая и религиозная нейтральность: Для Альянса неприемлемо представлять и обсуждать криминальные, религиозные и политические темы и любого рода негативную информации о настоящем и прошлом. <br/>5. Соблюдение Кодекса поведения, исключающего дискриминацию, коррупцию и харассмент.</p>      
+                            <br/>
+                            <span className="sub-title">IV. ЧЛЕНСТВО</span>
+                            <p><b>Категории членов</b> <br/>1. Действительные (индивидуальные)— физические лица 18 лет, разделяющие цели Альянса <br/>2. Корпоративные— юридические лица, назначившие представителя <br/>3. Почётные— лица, внёсшие особый вклад в Альянс <br/>4. Ассоциированные молодые члены— лица 16–25 лет, принимаемые с консультативным голосом <br/><br/><b>Приём в члены</b> <br/>1. Для вступления в Альянс требуется; Желание кандидата на вступление в Альянс, исполнение им требования Устава, и передача им в Альянс сведении о себе, необходимых для учета. <br/>2. Проверка секретариата (Due Diligence) в течение 30 дней <br/>3. Решение Коллегии простым большинством <br/>4. Юристы врачи, инженеры, ученные, художники, строители, архитекторы, и другие специалисты и профессионалы своего дела, <br/>а так же деловые люди и коммерсанты, которые состоялись, принимаются в члены Альянса по упрощенным правилам. <br/><br/><b>Прекращение членства</b> <br/>1. Добровольный выход <br/> 2. Исключение по решению Коллегии за нарушение требований Устава.</p>      
+                            <br/>
+                            <span className="sub-title">V. ПРАВА И ОБЯЗАННОСТИ ЧЛЕНОВ</span>
+                            <p><b>Права</b> <br/>1. Участвовать в управлении Альянса через голосование и занятия выборных должностей. <br/>2. Для использования в своих коммерческих целях получать информацию о деловых способностях членов Альянса и их связей. 3. Получать информацию о проектах, деятельности и отчётах Альянса. <br/>4.Пользоваться поддержкой со стороны Альянса, ресурсами и программами Альянса. <br/>5. Вносить предложения, делится коммерческой и деловой информацией, задавать вопросы и обращаться за помощью для себя и членов семьи; для повышения образования, трудоустройства и участия в бизнесе. <br/><br/><b>Обязанности</b> <br/>1. Строгое соблюдение Устава, принятых Президентом или Коллегией Альянса документов и установленных правил для членов Альянса. <br/>2. Содействовать привлечению в Альянс деловых, образованных людей и профессионалов в своем деле. <br/>3. Поддерживать связь с членами Альянса. 4. Обмен информацией и опытом: предоставление рекомендаций, аналитических данных или успешных проектов. <br/>5. Предлагать совместный бизнес членам Альянса и по мере возможности участие в мероприятиях альянса касательно бизнеса. <br/>6. Реклама партнеров, продвижение услуг и продукции участников Альянса. <br/>7. Принимать участие с членами Альянса для поиска новых идей ,ресурсов и перспективных направлений. <br/>8. Разработка, представление и реализация бизнес- инициатив, которые выгодны членам Альянса. <br/>9. Объединение ресурсов для совместного использования инфраструктуры, технологий или маркетинговых инструментов. <br/>10. При общении с членами Альянса соблюдать деловую этику и конфиденциальность. <br/>11. Честное и открытое сотрудничество: выполнение обязательств перед партнерами. <br/>12. Предотвращать и не допускать конфликты интересов. <br/>13. На добровольной основе оказывать возможную помощь членам Альянса. <br/>14. При необходимости, на добровольной основе принимать участие для защиты прав членов Альянса</p>  
+                            <br/>
+                            <span className="sub-title">VI. ОРГАНЫ УПРАВЛЕНИЯ</span>
+                            <p><b>Общее собрание членов (General Assembly) — высший орган </b> <br/>1. Созывается не реже одного раза в год; внеочередное по требованию - 10 % действительных членов. <br/>2. Кворум — 50 % действительных членов (очно, онлайн или по доверенности). <br/>3. Решения — простое большинство; изменения Устава и ликвидация — 2/3. <br/><br/> <b>Коллегия (Board)</b> <br/>1. Исполнительный орган (5–9 человек) <br/>2. Избирается Общим собранием на 5 лет с возможностью переизбрания <br/>3. Заседает не реже одного раза в квартал; ведёт текущие дела, контролирует соблюдение Политики конфликта интересов<br/>4. Принимает новых членов, утверждает, правила, деятельность Альянса, проекты, бюджет. <br/><br/><b>Президент</b> <br/>1. Представляет Альянс, подписывает документы <br/>2. Избирается из состава Коллегии <br/><br/> <b>Вице-президенты</b> <br/>1. Курируют направления (бизнес, культура, интеграция). <br/><br/><b>Секретариат</b> <br/>1. Административная поддержка. <br/><br/><b>Казначей (Audit Commission)</b> <br/>1. Организация финансов и контроль за расходом <br/>2.Назначается коллегией </p>      
+                            <br/>
+                            <span className="sub-title">VII. ФИНАНСЫ И ИМУЩЕСТВО</span>
+                            <p>1. Источники: членские взносы, пожертвования, гранты, поступления от мероприятий, иная разрешённая законом деятельность. <br/>2.Членские взносы: размер и порядок утверждает Общее собрание ежегодно. <br/>3. Финансовый год совпадает с календарным. <br/>4. Коллегия утверждает бюджет; годовой отчёт публикуется на сайте для членов. <br/>5. Расходование средств исключительно на уставные цели. <br/>6. До 20 % утверждённого годового бюджета может резервироваться в Инновационный фонд (Impact Fund) для микрогрантов участникам и проектным группам.</p>        
+                            <br/>
+                            <span className="sub-title">VIII. ЗАЩИТА ПЕРСОНАЛЬНЫХ ДАННЫХ</span>
+                            <p>1. Альянс действует в соответствии с GDPR и DSG (Австрия). <br/>2. Члены Альянса информируются о целях, объёме и сроках хранения данных; имеют право на доступ, исправление и удаление своих данных. <br/>Документ утвержден на заседании Коллегии Альянса и принят Общим собранием.</p>                       
                         </div>
                     </div>
                 </section>
-                {/* team-section end */}
-
-
-                {/* chooseus-style-two */}
-                <section className="chooseus-style-two sec-pad">
-                    <div className="bg-layer parallax-bg" data-parallax='{"y": 100}' style={{ backgroundImage: 'url(assets/images/background/chooseus-bg-2.jpg)' }}></div>
-                    <div className="auto-container">
-                        <div className="row clearfix">
-                            <div className="col-xl-6 col-lg-12 offset-xl-6 content-column">
-                                <div className="content_block_six">
-                                    <div className="content-box p_relative ml_30">
-                                        <div className="sec-title mb_50">
-                                            <span className="sub-title">Why Choose BizTech</span>
-                                            <h2>Reason For Choosing Our Consultancy</h2>
-                                        </div>
-                                        <ul className="accordion-box">
-                                            {/*Accordion Block*/}
-                                            <li className="accordion block">
-                                                <div className={isActive.key == 1 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(1)}>
-                                                    <div className="icon-box"></div>
-                                                    <h3>Quick Response</h3>
-                                                </div>
-                                                <div className={isActive.key == 1 ? "acc-content current" : "acc-content"}>
-                                                    <div className="content">
-                                                        <div className="text">Sodales posuere facilisi metus elementum ipsum egestas amet amet mattis commodo Nunc tempor amet massa diam mauris Risus sodales interdum.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            {/*Accordion Block*/}
-                                            <li className="accordion block">
-                                                <div className={isActive.key == 2 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(2)}><div className="icon-box"></div><h3>Experience Consultant</h3></div>
-                                                <div className={isActive.key == 2 ? "acc-content current" : "acc-content"}>
-                                                    <div className="content">
-                                                        <div className="text">Sodales posuere facilisi metus elementum ipsum egestas amet amet mattis commodo Nunc tempor amet massa diam mauris Risus sodales interdum.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            {/*Accordion Block*/}
-                                            <li className="accordion block">
-                                                <div className={isActive.key == 3 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(3)}><div className="icon-box"></div><h3>Flexible Payment</h3></div>
-                                                <div className={isActive.key == 3 ? "acc-content current" : "acc-content"}>
-                                                    <div className="content">
-                                                        <div className="text">Sodales posuere facilisi metus elementum ipsum egestas amet amet mattis commodo Nunc tempor amet massa diam mauris Risus sodales interdum.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                {/* chooseus-style-two end */}
-
-
-                {/* testimonial-style-two */}
-                <section className="testimonial-style-two p_relative">
-                    <div className="auto-container">
-                        <div className="sec-title mb_50 centred">
-                            <span className="sub-title">Testimonials</span>
-                            <h2>What They’re Say <br />About Us?</h2>
-                        </div>
-                        <div className="col-lg-12 col-md-12 col-sm-12 content-column">
-                            <div className="content-box">
-                                {/*Theme Carousel*/}
-                                <TestimonialSlider0 />                        
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                {/* testimonial-style-two end */}
-
-
-                <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="vfhzo499OeA" onClose={() => setOpen(false)} />
             </Layout>
         </>
     )

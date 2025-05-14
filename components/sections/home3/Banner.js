@@ -44,7 +44,7 @@ export default function Banner() {
                         <div className="auto-container">
                             <div className="content-box">
                             <div className="content-inner">
-                                <span>Наша миссия</span>
+                                <span>НАША МИССИЯ</span>
                                 <h2>Альянс Европейского Единства</h2>
                                 <p>Объединить образованных, умных, предприимчивых, активных и деловых людей для установления прочных деловых и коммерческих связей, направленных на создание достойного будущего для членов Альянса и их семей в Европе и за её пределами.</p>
                                 <Link href="/about-us" className="theme-btn-one">Уставные требования</Link>
