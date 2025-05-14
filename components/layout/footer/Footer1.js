@@ -4,7 +4,7 @@ export default function Footer1() {
     return (
         <>
             <footer className="main-footer">
-                {/* <div className="widget-section">
+                <div className="widget-section">
                     <div className="pattern-layer">
                         <div className="pattern-1" style={{ backgroundImage: 'url(assets/images/shape/shape-20.png)' }}></div>
                         <div className="pattern-2" style={{ backgroundImage: 'url(assets/images/shape/shape-21.png)' }}></div>
@@ -89,7 +89,7 @@ export default function Footer1() {
                         </p>
                     </div>
                     </div>
-                </div> */}
+                </div>
             </footer>
 
         </>

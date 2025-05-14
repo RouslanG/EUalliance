@@ -17,13 +17,13 @@ export default function Home() {
                 <Banner />
                 <Features />
                 <About />
-                {/* <Services />
-                <Video /> */}
+                <Services />
+                <Video />
                 <Team />
-                {/* <Testimonial />
+                <Testimonial />
                 <Clients />
                 <Projects />
-                <Expertise /> */}
+                <Expertise />
             </Layout>
         </>
     )
